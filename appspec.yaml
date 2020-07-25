@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:046222647735:task-definition/hello-world-rest-api:3"
         LoadBalancerInfo:
-          ContainerName: "aws-hello-world-rest-api"
+          ContainerName: "hello-world-rest-api"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
